@@ -1,0 +1,30 @@
+{
+  "home": {
+    "title": "Home",
+    "order": 1,
+    "file": "home.md"
+  },
+
+  "install": {
+    "title": "How to install",
+    "order": 2,
+    "file": "install.md"
+  },
+
+  "tags": {
+    "title": "Tags",
+    "order": 3,
+    "pages": {
+      "what-is-a-tag": {
+        "title": "What is a tag?",
+        "file": "tags/what-is-a-tag.md",
+        "order": 1
+      },
+      "guild-tags-directory": {
+        "title": "Guild Tags Directory",
+        "file": "tags/guild-tags-directory.md",
+        "order": 2
+      }
+    }
+  }
+}
