@@ -4,8 +4,8 @@
     "order": 1,
     "file": "home.md"
   },
-  "tags": {
-    "title": "Tags",
+  "getting-started": {
+    "title": "Getting Started",
     "order": 2,
     "pages": {
       "what-is-a-tag": {
@@ -17,32 +17,38 @@
         "title": "Creating a tag",
         "file": "tags/create.md",
         "order": 2
+      }
+    }
+  },
+  "tags": {
+    "title": "Tags",
+    "order": 3,
+    "pages": {
+      "list": {
+        "title": "Tag list",
+        "file": "tags/list.md",
+        "order": 1
       },
       "edit": {
         "title": "Editing a tag",
         "file": "tags/edit.md",
-        "order": 3
+        "order": 2
       },
       "delete": {
         "title": "Deleting a tag",
         "file": "tags/delete.md",
-        "order": 4
-      },
-      "list": {
-        "title": "Tag list",
-        "file": "tags/list.md",
-        "order": 5
+        "order": 3
       },
       "likes": {
         "title": "Likes and leaderboard",
         "file": "tags/likes.md",
-        "order": 6
+        "order": 4
       }
     }
   },
   "bot": {
     "title": "Bot",
-    "order": 3,
+    "order": 4,
     "pages": {
       "setup": {
         "title": "Bot setup",
@@ -63,7 +69,7 @@
   },
   "web": {
     "title": "Website",
-    "order": 4,
+    "order": 5,
     "pages": {
       "dashboard": {
         "title": "Directory",
@@ -84,28 +90,12 @@
   },
   "api": {
     "title": "API",
-    "order": 5,
-    "pages": {
-      "introduction": {
-        "title": "Introduction",
-        "file": "api/introduction.md",
-        "order": 1
-      },
-      "authentication": {
-        "title": "Authentication",
-        "file": "api/authentication.md",
-        "order": 2
-      },
-      "endpoints": {
-        "title": "Endpoints",
-        "file": "api/endpoints.md",
-        "order": 3
-      }
-    }
+    "order": 6,
+    "file": "api/introduction.md"
   },
   "faq": {
     "title": "FAQ",
-    "order": 6,
+    "order": 7,
     "file": "faq.md"
   }
 }
